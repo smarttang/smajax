@@ -4,8 +4,10 @@
  * @date [2016.10.23]
  * @return {[type]} [description]
  */
+var smajax;
+
 (function() {
-	var smajax = function(obj) {
+	smajax = function(obj) {
 			if (obj.async == undefined) {
 				this.async = true;
 			} else {
